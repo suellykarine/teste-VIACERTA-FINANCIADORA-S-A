@@ -1,0 +1,39 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform: translateX(-50%);
+}
+h1 {
+  color: #333;
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: black solid 1px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
